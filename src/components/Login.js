@@ -20,8 +20,8 @@ const Login = () => {
 
   const { isAuth, setIsAuth } = useContext(AuthContext);
 
-  const [name, setName] = useState("");
   const [vorname, setVorname] = useState("");
+  const [nachname, setNachname] = useState("");
   const [isAge, setIsAge] = useState(false);
 
   useEffect(() => {
@@ -34,8 +34,8 @@ const Login = () => {
     e.preventDefault();
     auth({
       person: {
-        name,
         vorname,
+        nachname,
       },
       setAuth: setIsAuth,
     });
@@ -70,21 +70,21 @@ const Login = () => {
                 margin="normal"
                 required
                 fullWidth
-                id="name"
-                label="Name"
-                name="name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
+                id="vorname"
+                name="vorname"
+                label="Vorname"
+                value={vorname}
+                onChange={(e) => setVorname(e.target.value)}
               />
               <TextField
                 margin="normal"
                 required
                 fullWidth
-                name="vorname"
-                label="Vorname"
-                id="vorname"
-                value={vorname}
-                onChange={(e) => setVorname(e.target.value)}
+                id="nachname"
+                name="nachname"
+                label="Nachname"
+                value={nachname}
+                onChange={(e) => setNachname(e.target.value)}
               />
               <FormControlLabel
                 value={isAge}

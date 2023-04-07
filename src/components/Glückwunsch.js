@@ -10,7 +10,6 @@ import Checkbox from "@mui/material/Checkbox";
 import Button from "@mui/material/Button";
 
 import Grow from "@mui/material/Grow";
-import Zoom from "@mui/material/Zoom";
 
 import ro from "../assets/ro.jpg";
 
@@ -45,8 +44,8 @@ const Glückwunsch = () => {
             sx={{
               boxShadow: 5,
               margin: "48px 0",
-              width: "auto",
-              height: "20vh",
+              width: "280px",
+              height: "330px",
             }}
           />
         </Grow>
@@ -68,7 +67,7 @@ const Glückwunsch = () => {
               value={isAwesome}
               onChange={(e) => setIsAwesome(!isAwesome)}
               control={<Checkbox value="remember" color="primary" />}
-              label="Ich werde noch coole!"
+              label="Ich werde noch cooler!"
             />
             <Button
               onClick={handleButtonClick}

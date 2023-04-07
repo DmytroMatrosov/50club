@@ -1,10 +1,10 @@
 const ValidCreds = {
-  name: "Roberto",
-  vorname: "Ferraro",
+  vorname: "Roberto",
+  nachname: "Ferraro",
 };
 
-const isCredsValid = ({ name, vorname }) => {
-  return name === ValidCreds.name && vorname === ValidCreds.vorname;
+const isCredsValid = ({ nachname, vorname }) => {
+  return nachname === ValidCreds.nachname && vorname === ValidCreds.vorname;
 };
 
 export const auth = ({ person, setAuth }) => {
