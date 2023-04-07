@@ -1,4 +1,5 @@
 {
+  "homepage": "https://dmytromatrosov.github.io/50club",
   "name": "roberto",
   "version": "0.1.0",
   "private": true,
@@ -45,5 +46,4 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "homepage": "https://dmytromatrosov.github.io/50club/"
 }
