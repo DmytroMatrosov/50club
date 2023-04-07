@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/50club/static/css/main.76b443d6.css",
+    "main.js": "/50club/static/js/main.b68727a6.js",
+    "static/js/787.7c358554.chunk.js": "/50club/static/js/787.7c358554.chunk.js",
+    "static/media/ticket.png": "/50club/static/media/ticket.a39b63b6a33e209ce5f4.png",
+    "static/media/ro.jpg": "/50club/static/media/ro.9854d63bd07800dcb23b.jpg",
+    "static/media/le50.png": "/50club/static/media/le50.fb8d6c076f67f9093c12.png",
+    "index.html": "/50club/index.html",
+    "main.76b443d6.css.map": "/50club/static/css/main.76b443d6.css.map",
+    "main.b68727a6.js.map": "/50club/static/js/main.b68727a6.js.map",
+    "787.7c358554.chunk.js.map": "/50club/static/js/787.7c358554.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76b443d6.css",
+    "static/js/main.b68727a6.js"
+  ]
+}
