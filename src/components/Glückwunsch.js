@@ -50,7 +50,7 @@ const Glückwunsch = () => {
           />
         </Grow>
         <Grow in timeout={1000} unmountOnExit>
-          <Typography variant="h6" sx={{ margin: "50px 0" }}>
+          <Typography variant="h6" sx={{ margin: "0 0 50px 0" }}>
             Wenn dir das Leben einen Geburtstag schenkt – mach ein Fest daraus!
           </Typography>
         </Grow>
