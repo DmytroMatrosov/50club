@@ -43,14 +43,14 @@ const Glückwunsch = () => {
             variant="rounded"
             sx={{
               boxShadow: 5,
-              margin: "48px 0",
-              width: "280px",
-              height: "330px",
+              margin: "32px 0",
+              width: "250px",
+              height: "280px",
             }}
           />
         </Grow>
         <Grow in timeout={1000} unmountOnExit>
-          <Typography variant="h6" sx={{ margin: "0 0 50px 0" }}>
+          <Typography variant="h6" sx={{ margin: "0 0 32px 0" }}>
             Wenn dir das Leben einen Geburtstag schenkt – mach ein Fest daraus!
           </Typography>
         </Grow>
@@ -70,6 +70,7 @@ const Glückwunsch = () => {
               label="Ich werde noch cooler!"
             />
             <Button
+              sx={{ margin: "10px 0 0 0" }}
               onClick={handleButtonClick}
               variant="contained"
               disabled={!isAwesome}
