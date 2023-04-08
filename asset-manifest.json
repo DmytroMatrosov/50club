@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/50club/static/css/main.d033f823.css",
-    "main.js": "/50club/static/js/main.467e5785.js",
+    "main.js": "/50club/static/js/main.2506c678.js",
     "static/js/787.7c358554.chunk.js": "/50club/static/js/787.7c358554.chunk.js",
     "static/media/ticket.png": "/50club/static/media/ticket.a39b63b6a33e209ce5f4.png",
     "static/media/ro.jpg": "/50club/static/media/ro.9854d63bd07800dcb23b.jpg",
     "static/media/le50.png": "/50club/static/media/le50.fb8d6c076f67f9093c12.png",
     "index.html": "/50club/index.html",
     "main.d033f823.css.map": "/50club/static/css/main.d033f823.css.map",
-    "main.467e5785.js.map": "/50club/static/js/main.467e5785.js.map",
+    "main.2506c678.js.map": "/50club/static/js/main.2506c678.js.map",
     "787.7c358554.chunk.js.map": "/50club/static/js/787.7c358554.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d033f823.css",
-    "static/js/main.467e5785.js"
+    "static/js/main.2506c678.js"
   ]
 }
